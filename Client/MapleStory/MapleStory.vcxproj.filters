@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{b3659194-3044-40e4-a9aa-286476215d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Graphics">
+      <UniqueIdentifier>{b300f056-c25c-41bc-92ae-0d1e0a3dc23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Input">
+      <UniqueIdentifier>{693701ec-9dd8-4924-b2bd-02d13418bfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Object">
+      <UniqueIdentifier>{23bc80a6-c489-4536-b7f0-a76560cc5261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Property">
+      <UniqueIdentifier>{97d263e6-fb72-4ae9-a507-e50a00eab948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{b4725840-11f2-42d2-92f1-2c542d763a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Physics">
+      <UniqueIdentifier>{e6d311ee-4a3b-48f9-83ff-f7d3b0643338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{bc909951-cc99-4cbc-9bb2-1de594adf2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\GameObject">
+      <UniqueIdentifier>{b014d3a2-ca83-468d-94f2-2e9e5efb6a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Component">
+      <UniqueIdentifier>{180e38c0-bd29-4053-aeab-a9614e10b862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e30d1d6e-528d-43a3-94f6-21e9913f5fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\System">
+      <UniqueIdentifier>{8a850c59-2ce5-4e74-b60b-8e0d6c8b10dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4a331407-c6f5-4bb6-8e71-6c9f6cc969d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ThreadPool">
+      <UniqueIdentifier>{969b611b-f147-40e3-8732-de64845ea269}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystem.h">
+      <Filter>Main\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrameSkip.h" />
+    <ClInclude Include="CSprite.h" />
+    <ClInclude Include="CGraphicsManager.h">
+      <Filter>Manager\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManger.h">
+      <Filter>Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CPropertyManager.h">
+      <Filter>Manager\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysicsManager.h">
+      <Filter>Manager\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameObject.h">
+      <Filter>GameObject\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadPool.h">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CSystem.cpp">
+      <Filter>Main\System</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrameSkip.cpp" />
+    <ClCompile Include="CSprite.cpp" />
+    <ClCompile Include="CGraphicsManager.cpp">
+      <Filter>Manager\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManger.cpp">
+      <Filter>Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CPropertyManager.cpp">
+      <Filter>Manager\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysicsManager.cpp">
+      <Filter>Manager\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MapleStory.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameObject.cpp">
+      <Filter>GameObject\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadPool.cpp">
+      <Filter>ThreadPool</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapleStory.rc">
+      <Filter>Base\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Base\Resource</Filter>
+    </Image>
+    <Image Include="MapleStory.ico">
+      <Filter>Base\Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
